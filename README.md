@@ -24,7 +24,7 @@ Os scripts realizam o cálculo do limite de exclusão usando a biblioteca `pyhf`
 A análise utiliza o motor estatístico `pyhf` para realizar testes de hipótese baseados em um modelo de fundo não correlacionado (`uncorrelated_background`). 
 
 ### Pseudo-experimentos (Toys)
-Para cada ponto de massa, foram realizados **500 pseudo-experimentos em paralelo** para determinar as distribuições da estatística de teste. 
+Para cada ponto de massa, foram realizados 500 pseudo-experimentos para determinar as distribuições da estatística de teste. 
 * **Otimização de Amplitudes:** Foram utilizados limites (bounds) de busca de sinal distintos para diferentes massas. Essa escolha foi baseada em testes prévios, garantindo que o intervalo de variação do parâmetro de intensidade de sinal ($\mu$) fosse adequado para capturar o limite de 95% de C.L. em cada região.
 
 ### Pré-requisitos
