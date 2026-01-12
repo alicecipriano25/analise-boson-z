@@ -1,4 +1,4 @@
-# Análise Estatística para Busca de Bósons $Z'$
+# Análise Estatística -- Limite de Exclusão do $Z'$
 
 Este repositório contém os dados e scripts utilizados para a análise estatística e definição de limites de exclusão para um bóson elétricamente neutro $Z'$, utilizando dados de sinal e de ruído de fundo correspondentes ao espectro de massa invariante do par elétron-pósitron publicado pelo experimento ATLAS para colisões próton–próton a uma energia de centro de massa de $\sqrt{s}=13$ TeV durante o \textit{Run 2} do Grande Colisor de Hádrons, com luminosidade integrada de $139 \,\textnormal{fb}^{-1}$. A análise faz parte da monografia "Busca por um bóson neutro utilizando dados do experimento ATLAS/LHC".
 
