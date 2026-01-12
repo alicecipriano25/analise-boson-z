@@ -6,7 +6,7 @@ import pandas as pd
 
 pyhf.set_backend('numpy')
 
-all_bins = pd.read_csv('/home/alice/tcc_alice_results/all_binning_normalized_with_bkg.csv', index_col=0)
+all_bins = pd.read_csv('all_binning_normalized_with_bkg.csv', index_col=0)
 
 bkg = np.array(all_bins['Background']) #background
 observations = list(all_bins['Data'])
@@ -35,7 +35,7 @@ for col in ['mass_zprime_eta0p01_2600_data', 'mass_zprime_eta0p01_2800_data', 'm
 	
 	scan = np.linspace(1, np.sqrt(80), 90)**2
 
-	obs_limit, exp_limits, (scan, results) = pyhf.infer.intervals.upper_limits.upper_limit(data, model, scan=scan, init_pars=init_pars, par_bounds=bounds, calctype='toybased', ntoys=250, track_progress=False, return_results=True)
+	obs_limit, exp_limits, (scan, results) = pyhf.infer.intervals.upper_limits.upper_limit(data, model, scan=scan, init_pars=init_pars, par_bounds=bounds, calctype='toybased', ntoys=500, track_progress=False, return_results=True)
 
 	single_result['Observed Limit'] = obs_limit
 
