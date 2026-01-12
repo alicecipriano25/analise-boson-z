@@ -48,5 +48,5 @@ for col in ['mass_zprime_eta0p03_800_data', 'mass_zprime_eta0p03_1000_data', 'ma
 	
 results_df = pd.DataFrame(all_results)
 	
-results_df.to_csv('/home/alice/tcc_alice_results/stats_results_0p03_800_2400.csv')
+results_df.to_csv('stats_results_0p03_800_2400.csv')
 
